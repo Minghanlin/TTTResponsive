@@ -1,0 +1,65 @@
+.heading {
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+  background-color: purple;
+  position: relative;
+}
+#clear {
+  width: 390px;
+  text-align: center;
+  background-color: grey;
+  font-size: 50px;
+  position: absolute;
+  border-radius: 10px;
+  display: block;
+  margin-left: 35%;
+  margin-top: 5px;
+
+}
+main {
+  background-color: purple;
+  height: 750px;
+}
+
+#bulletin {
+  position:absolute;
+  margin-top: 15%;
+  display: block;
+  margin-left: 47%;
+}
+
+h1 {
+  text-align: center;
+  position: absolute;
+}
+
+
+.container {
+  width: 608px;
+  height: 600px;
+  background-color: blue;
+  margin: 0 auto;
+  position: relative;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: purple;
+  position: relative;
+  display:inline-block;
+}
+
+.clear {
+  clear:both;
+}
+
+h3 {
+  position: absolute;
+  display: block;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+}
