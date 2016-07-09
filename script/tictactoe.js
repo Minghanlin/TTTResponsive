@@ -51,12 +51,12 @@ function checkWinX() {
   (playerXmoves.indexOf('boxthree') !== -1 && playerXmoves.indexOf('boxfive') !== -1 && playerXmoves.indexOf('boxseven') !== -1))
 {
   document.getElementById('bulletin').innerHTML = "Player X Wins!";
-  document.getElementById('bulletin').style.fontSize = "35px";
+  document.getElementById('bulletin').style.fontSize = "30px";
   document.getElementById('clear').innerHTML = "Restart";
 }
 else if(turn >=9) {
   document.getElementById('bulletin').innerHTML = "Drawn!";
-  document.getElementById('bulletin').style.fontSize = "35px";
+  document.getElementById('bulletin').style.fontSize = "30px";
   document.getElementById('clear').innerHTML = "Restart";
 }
 }
@@ -74,12 +74,12 @@ function checkWinO() {
   (playerOmoves.indexOf('boxthree') !== -1 && playerOmoves.indexOf('boxfive') !== -1 && playerOmoves.indexOf('boxseven') !== -1))
 {
   document.getElementById('bulletin').innerHTML = "Player O Wins!";
-  document.getElementById('bulletin').style.fontSize = "35px";
+  document.getElementById('bulletin').style.fontSize = "45px";
   document.getElementById('clear').innerHTML = "Restart";
 }
 else if(turn >=9) {
   document.getElementById('bulletin').innerHTML = "Drawn!";
-  document.getElementById('bulletin').style.fontSize = "35px";
+  document.getElementById('bulletin').style.fontSize = "45px";
   document.getElementById('clear').innerHTML = "Restart";
 }
 }

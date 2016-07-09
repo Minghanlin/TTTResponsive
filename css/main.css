@@ -6,15 +6,15 @@
   position: relative;
 }
 #clear {
-  width: 390px;
+  width: 50%;
   text-align: center;
   background-color: grey;
   font-size: 50px;
   position: absolute;
   border-radius: 10px;
   display: block;
-  margin-left: 35%;
-  margin-top: 5px;
+  margin-left: 27%;
+  margin-top: 5%;
 
 }
 main {
@@ -26,7 +26,8 @@ main {
   position:absolute;
   margin-top: 15%;
   display: block;
-  margin-left: 47%;
+  margin-left: 43%;
+  font-size: 45px;
 }
 
 h1 {
@@ -48,18 +49,17 @@ h1 {
   background-color: purple;
   position: relative;
   display:inline-block;
+  text-align: center;
 }
 
 .clear {
   clear:both;
 }
 
-h3 {
+.box h3 {
   position: absolute;
   display: block;
   text-align: center;
-}
-
-h2 {
-  font-size: 40px;
+  font-size: 50px;
+  margin-left: 30%;
 }
